@@ -20,7 +20,7 @@
 
 (function () {
   /* --- Número destino de WhatsApp (sin + ni espacios) --- */
-  const WA_NUMBER = '584125550101';
+  const WA_NUMBER = '59177494440';
 
   /* --- Referencias al DOM --- */
   const contadores = {
