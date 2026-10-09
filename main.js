@@ -27,6 +27,6 @@ document.querySelector('.btn-enviar').addEventListener('click', () => {
   }
 
   const texto = `Hola, soy ${nombre}. Necesito: ${servicio}.${mensaje ? ' Detalle: ' + mensaje : ''}`;
-  const url   = `https://wa.me/584125550101?text=${encodeURIComponent(texto)}`;
+  const url   = `https://wa.me/59177494440?text=${encodeURIComponent(texto)}`;
   window.open(url, '_blank');
 });
