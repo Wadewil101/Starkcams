@@ -403,7 +403,7 @@ nav ul a:hover { color: var(--azul); }
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 6rem;
+  overflow: hidden;
   box-shadow: var(--sombra), 0 0 0 8px var(--celeste);
 }
 
