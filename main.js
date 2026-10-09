@@ -17,7 +17,6 @@ document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 // Formulario de contacto general → abre WhatsApp
 document.querySelector('.btn-enviar').addEventListener('click', () => {
   const nombre   = document.querySelectorAll('.contact-form input')[0].value.trim();
-  const telefono = document.querySelectorAll('.contact-form input')[1].value.trim();
   const servicio = document.querySelector('.contact-form select').value;
   const mensaje  = document.querySelector('.contact-form textarea').value.trim();
 
